@@ -7,7 +7,7 @@ function savedetailhandler(event)
     console.log(event.get.value)
 }
 return(
-    <div > 
+    <form > 
         <div>
             <label>Username</label>
             <input type="text" onChange={savedetailhandler}  />
@@ -17,7 +17,7 @@ return(
             <input type="text"/>
         </div>
         <button type='submit' >Submit</button>
-    </div>
+    </form>
 );
 }
 export default Userform;
